@@ -74,8 +74,8 @@ minikube status
 
 echo "install golang pkg"
 sudo add-apt-repository ppa:longsleep/golang-backports
-sudo apt update
-sudo apt install golang-go 
+sudo apt update -y
+sudo apt install -y golang-go 
 
 echo "Install dlv pkg"
  git clone https://github.com/go-delve/delve.git $GOPATH/src/github.com/go-delve/delve
