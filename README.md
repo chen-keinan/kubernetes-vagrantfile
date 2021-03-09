@@ -1,6 +1,7 @@
 # kubernetes-vagrantfile
 
-vagrant file to be used for k8s associated  programs developments include :
+vagrant file to be used for k8s associated  programs developments, file include :
+- buntu/bionic64
 - k8s cluster 
 - minikube
 - dlv for remote debug
