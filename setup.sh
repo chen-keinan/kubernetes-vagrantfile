@@ -72,10 +72,10 @@ kubectl get nodes
 kubectl get pod
 minikube status
 
-echo "install golang pkg"
+echo "install ebpf and golang packages"
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update -y
-sudo apt install -y golang-go 
+sudo apt-get -y install clang llvm make golang
 
 echo "Install dlv pkg"
  git clone https://github.com/go-delve/delve.git $GOPATH/src/github.com/go-delve/delve
@@ -83,6 +83,7 @@ echo "Install dlv pkg"
  make install
 
 ### export dlv bin path
-export PATH=$PATH:/home/vagrant/go/bin
+echo export PATH=$PATH:/home/vagrant/go/bin >> ~/.bashrc
+echo export PATH=$PATH:/root/go/bin >> ~/.bashrc
 
 echo "Finished provisioning."

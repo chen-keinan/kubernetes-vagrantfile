@@ -9,10 +9,10 @@ vagrant file to be used for k8s associated  programs developments, file include 
 ## Quick Start
 
 ```
- git clone git@github.com:chen-keinan/kubernetes-vagrantfile.git
- cd kubernetes-vagrantfile
- vagrant up
-
+ # git clone git@github.com:chen-keinan/kubernetes-vagrantfile.git
+ # cd kubernetes-vagrantfile
+ # vagrant up
+ # vagrant ssh
 ```
 
 
