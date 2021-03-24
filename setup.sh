@@ -75,7 +75,7 @@ minikube status
 echo "install ebpf and golang packages"
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update -y
-sudo apt-get -y install clang llvm make golang
+sudo apt-get -y install clang llvm make golang libpcap-dev
 
 echo "Install dlv pkg"
  git clone https://github.com/go-delve/delve.git $GOPATH/src/github.com/go-delve/delve
