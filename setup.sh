@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "start vagrant provioning..."
 
 sudo apt-get update
